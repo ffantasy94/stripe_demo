@@ -2,7 +2,6 @@
     "require": {
         "php": ">=5.5.9",
         "silex/silex": "~2.0",
-        "twig/twig": "^2.1",
         "stripe/stripe-php": "^4.4"
     },
     "require-dev": {
