@@ -18,7 +18,7 @@ $app->before(function (Request $request) {
 });
 
 $app->get('/', function () use ($app) {
-    return new Response('Great, your backend is set up. Now you can configure the Stripe example apps to point here.', 200);
+    return 'Great, your backend is set up. Now you can configure the Stripe example apps to point here.'
 });
 
 $app->post('/ephemeral_keys', function (Request $request) use ($app) {
